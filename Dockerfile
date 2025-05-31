@@ -1,4 +1,4 @@
-FROM maven:3.8.1-openjdk-8 AS build
+FROM docker.io/library/maven:3.8.1-openjdk-8
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
